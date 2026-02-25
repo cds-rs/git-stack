@@ -14,6 +14,9 @@ pub mod rewrite;
 
 pub mod legacy;
 
+#[cfg(feature = "scenario")]
+pub mod scenario;
+
 #[doc = include_str!("../README.md")]
 #[cfg(doctest)]
 pub struct ReadmeDoctests;
