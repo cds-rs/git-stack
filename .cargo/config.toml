@@ -1,3 +1,7 @@
+[alias]
+gen-mermaid = "run --features scenario --bin scenario-graph -- --update"
+run-scenarios = "test --test scenarios --features scenario"
+
 [resolver]
 incompatible-rust-versions = "fallback"
 
