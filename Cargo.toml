@@ -161,5 +161,10 @@ git-fixture = { version = "0.3.4", features = ["yaml"] }
 assert_fs = "1.1.1"
 snapbox = { version = "0.6.0", features = ["cmd", "dir"] }
 automod = "1.0.14"
+[[bin]]
+name = "scenario-graph"
+path = "src/bin/scenario_graph.rs"
+required-features = ["scenario"]
+
 [lints]
 workspace = true
